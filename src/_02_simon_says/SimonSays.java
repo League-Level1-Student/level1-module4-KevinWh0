@@ -74,6 +74,7 @@ public class SimonSays extends KeyAdapter {
 			if(imageIndex == e.getKeyCode()) {
 				points++;
 				this.speak("Correct");
+				frame.dispose();
 				
 			}else {
 				this.speak("Simon did not say...");
