@@ -19,9 +19,15 @@ public class TweetGrabber implements ActionListener {
 	
 	JFrame frame = new JFrame();
 	JPanel panel = new JPanel();
+<<<<<<< HEAD
 	JButton button = new JButton("Get Tweet!");
 	JLabel field = new JLabel();
 	JTextField textField = new JTextField(10);
+=======
+	JButton button = new JButton();
+	JLabel field = new JLabel();
+	JTextField textField = new JTextField();
+>>>>>>> 5cf65cfbb40db51286ae5bea99045a4e2e30c2f3
 	
 	void gui() {
 		frame.setVisible(true);
@@ -30,7 +36,11 @@ public class TweetGrabber implements ActionListener {
 		panel.add(textField);
 		panel.add(button);
 		panel.add(field);
+<<<<<<< HEAD
 		frame.pack();
+=======
+		
+>>>>>>> 5cf65cfbb40db51286ae5bea99045a4e2e30c2f3
 		
 		button.addActionListener(this);
 		
@@ -66,6 +76,9 @@ public class TweetGrabber implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		field.setText(getLatestTweet(textField.getText()));
+<<<<<<< HEAD
 		frame.pack();
+=======
+>>>>>>> 5cf65cfbb40db51286ae5bea99045a4e2e30c2f3
 	}
 }

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+<<<<<<< HEAD
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -16,5 +17,10 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+=======
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/league/Downloads/twitter4j-core-3.0.5.jar"/>
+	<classpathentry kind="lib" path="/Users/league/Downloads/commons-logging-1.1.3.jar"/>
+>>>>>>> 5cf65cfbb40db51286ae5bea99045a4e2e30c2f3
 	<classpathentry kind="output" path="bin"/>
 </classpath>
